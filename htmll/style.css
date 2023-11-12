@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #593021; /* Колір кави */
+    background-color: #593021; 
     color: #7c4028;
     padding: 20px;
     text-align: center;
@@ -36,7 +36,7 @@ section {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.5s ease-in-out;
-    transform: translateY(0); /* Виправлення проблеми з залиттям меню під розділ "Головна" */
+    transform: translateY(0); 
 }
 
 section.hidden {
@@ -69,7 +69,7 @@ section.hidden {
 }
 
 footer {
-    background-color: #58312a; /* Колір кави */
+    background-color: #58312a; 
     color: #713a2a;
     padding: 80px;
     text-align: center;
@@ -97,10 +97,10 @@ section {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.5s ease-in-out;
-    transform: translateY(100%); /* По замовчуванню, всі розділи приховані */
+    transform: translateY(100%); 
 }
 
-/* Додайте стилі для показу вмісту розділів, коли вони розкриваються */
+
 section:not(.hidden) {
     transform: translateY(0);
 }
